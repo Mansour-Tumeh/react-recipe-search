@@ -35,7 +35,8 @@ you can test the api by searching for `q=milk` milk is the search word in this e
 <Recipe  key={id}  title={item.recipe.title}  image={item.recipe.image}  calories={item.recipe.calories}  />
 ```
 at the end you should have like this : 
-![enter image description here](recipe.png)
+![example](recipe.png)
+
 9- after you can see some recipies you can create the SearchRecipe component then you need to have text input and search button or just text input the search word from the textinput should replace the `milk` word in our url
 ```javascript 
 const  API_URL = `https://api.edamam.com/search?q=milk&app_id=${APP_ID}&app_key=${APP_KEY}`;
